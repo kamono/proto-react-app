@@ -17,7 +17,7 @@
     * Then 'react' as the framework. 
     * Select the defaults (Enter) for:
         * Source Path. 
-        * Distribution Path.
+        * Distribution Path (We will build this project later. For now, just hit Enter for the default).
         * Build command. 
         * Start commands.
 
