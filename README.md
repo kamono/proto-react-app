@@ -21,11 +21,18 @@
         * Build command. 
         * Start commands.
 
-    * Finally, select the profile you want to use. In my case, I choose 'default', becuase that's what I named it in ~/.aws/config (config deets below) 👀
+    * Finally, select the profile you want to use. In my case, I the choose 'default' option, becuase that's what it was named in my aws config files. <br><br>
 
+    (~/.aws/config) <br>
     ````[default]```` <br>
     ````output = json```` <br>
     ````region = us-east-1````
+
+    (~/.aws/credentials) <br>
+    ````[default]```` <br>
+    ````# personal account```` <br>
+    ````aws_access_key_id = AKIAJZ5*************```` <br>
+    ````aws_secret_access_key = lWleI+J*********************************```` <br><br>
 
 * Run ````npm install```` To download the react* dependencies in your package.json
 
@@ -34,10 +41,10 @@
 * ````$ npm install --save aws-amplify-react````
 
 * RUN LOCALLY
-* ````$ npm start````
+* ````$ npm start```` <br><br>
 
 * BUILD PROJECT FOR DEPLOYMENT
-* ````$ npm build```` or ````$ npm run-script build````
+* ````$ npm build```` or ````$ npm run-script build```` <br><br>
 
 * DEPLOY APP TO THE CLOUD
 * ````$ amplify add hosting```` This adds web hosting. Select 'DEV' for this example. 
