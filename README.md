@@ -15,6 +15,8 @@
     ````output = json```` <br>
     ````region = us-east-1````
 
+
+
 * AWS Amplify is a library that provides you with tools to build serverless applications. With it, integrating various AWS services with your app can be done in few lines of code
 * ````$ npm install --save aws-amplify````
 * ````$ npm install --save aws-amplify-react````
@@ -23,8 +25,14 @@
 * ````$ npm start````
 
 * BUILD PROJECT FOR DEPLOYMENT
-* ````$ npm build````
+* ````$ npm build```` or ````$ npm run-script build````
 
 * DEPLOY APP TO THE CLOUD
-* ````$ amplify add hosting```` Follow the instructions...
-* ````$ amplify publish````
+* ````$ amplify add hosting```` This adds web hosting. Select 'DEV' for this example as selecting PROD will take > 10 minutes. 
+    * Create a unique bucket name.
+    * Hit Enter to select the default for index doc.
+    * Hit Enter to select the default for error doc.
+
+* Use the ````amplify status```` command to view the resources that we will push to aws.
+
+* ````$ amplify publish```` This will deploy our application to the ☁️
