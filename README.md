@@ -1,9 +1,9 @@
 
 * Head to your local work space ````$ cd $REPO````
-* Once there, get the project from git ````$ git clone https://github.com/kamono/proto-react-app.git````
+* Once there, get the project from git ````$ git clone https://github.com/kamono/proto-react-app.git```` This project is just the boiler plate code for a react application.
 * ````$ cd proto-react-app````
 
-* The Amplify CLI is a tool that allows you create and configure AWS services for your application. Its purpose is to simplify mobile and web application development for you. The CLI uses AWS CloudFormation and nested stacks, which allows you to add or modify configurations locally before you push them for execution in the cloud.
+* The Amplify CLI is a tool that allows you create and configure AWS services for your application. Its purpose is to simplify mobile and web application development for you. The CLI uses AWS CloudFormation and nested stacks, which allows you to add or modify configurations locally before you push them for execution in the ☁️.
 * ````$ npm install -g @aws-amplify/cli````
 
 * If DO NOT have aws configures on your local (~/.aws/config, ~/.aws/credentials), the you can set that up by running the command below.
@@ -52,6 +52,6 @@
     * Hit Enter to select the default for index doc.
     * Hit Enter to select the default for error doc.
 
-* Use the ````amplify status```` command to view the resources that we will push to aws.
+* Use the ````amplify status```` command to view the resources that we will pushed to aws.
 
 * ````$ amplify publish```` This will deploy our application to the ☁️ Your browser should auto-redirect to the page once it's done. You'll also get the url link from the terminal after the build has been completed 😎
