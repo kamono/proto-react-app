@@ -17,6 +17,9 @@
 
 
 
+
+* ````npm install```` To download the react* dependencies in your package.jsoncl
+
 * AWS Amplify is a library that provides you with tools to build serverless applications. With it, integrating various AWS services with your app can be done in few lines of code
 * ````$ npm install --save aws-amplify````
 * ````$ npm install --save aws-amplify-react````
